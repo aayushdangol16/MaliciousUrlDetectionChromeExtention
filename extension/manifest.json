@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "Slider Extension",
+    "version": "1.0",
+    "description": "An extension with an on/off slider button.",
+    "permissions": ["tabs", "storage","webRequest", "webRequestBlocking","<all_urls>"],
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": "icons/icon16.png"
+      },
+    "background":{
+        "scripts":["background.js"]
+    },
+    "icons": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["content.js"]
+        }
+    ]
+  }
+  
