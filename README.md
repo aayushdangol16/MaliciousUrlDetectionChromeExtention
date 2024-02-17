@@ -19,3 +19,5 @@ cd minor
 python ayush.py
 ```
 4. Enable the extension and start enjoying its features
+## Demonstration
+![Demonstration](finally.gif)
