@@ -6,7 +6,7 @@ Our project involves creating a Chrome extension that utilizes LSTM (Long Short-
 ```bash
 git clone https://github.com/aayushdangol16/Minor.git
 ```
-3. Install the required libraries<br>
+2. Install the required libraries<br>
 ```bash
 cd minor
 pip install -r requirements.txt
